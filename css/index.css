@@ -1,0 +1,641 @@
+@charset "utf-8";
+/*头部*/
+ .header{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 0;
+    color: #fff;
+    background: #2E558C;
+    padding-left: 0.9%;
+ }
+ .header span img{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    margin-top: -8px;
+ }
+ .header span em{
+   font-size:16px;
+ } 
+ .header span:nth-child(2){
+    margin-left: 6%;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background: #264774;
+    font-size:16px;
+ }
+.con{width:100%;}
+.con_l{
+  width: 13%;
+  position: relative;
+  z-index: 5;
+}
+#con_r{width:87%}
+
+ #con_r>div{display:none;}
+  #con_r .con_show{display:block;}
+ /*内容左边*/
+ .con_l ul{background: #f0f0f0;}
+ .con_l li:nth-child(1){ height: 50px;}
+
+ .con_l li{
+    padding-left:12%;
+    border-bottom: 1px solid #264774;
+    width: 80%;
+    height:56px;
+    line-height:56px;
+    background: #2E558C;
+    font-size:14px;
+    color: #fff;
+    cursor: pointer;
+ }
+ .con_l li a{color:#fff;}
+ .con_l li span{margin-right: 8px;}
+ .con_l ul li:hover,.con_l .li_act{ background: #264774;}
+
+/*面包线*/
+ .con_nav{
+  height:39px;
+  line-height:39px;
+  color: black;
+  padding-left: 20px;
+  font-size:0;
+  background: #f0f0f0;
+ }
+ .con_nav span{ font-size: 12px;cursor: pointer;}
+ .con_nav .cn_sp_mr{margin-right: 2px;}
+ .con_nav .cn_sp_m{margin:8px;}
+ .con_nav .cn_sp_pd{ padding: 0 5px 0 8px;}
+ .con_nav .sp_cl{color:#777978;}
+
+/*右边内容,红色小字*/
+.cr_sp_wh{
+ padding:0 5px;
+  height:18px;
+  line-height:18px;
+  text-align: center;
+  color: #9a3150;
+  background: #fdf8f4;
+}
+/*右边内容,清楚border*/
+#con_r .bor_l{
+  border-left:0;
+  margin-left: -1px;
+  padding-left: 5px;
+}
+#con_r .bor_r{
+  border-right:0;
+  border-radius:0;
+  margin-right: -1px;
+  padding-left: 5px;
+}
+/*右边内容,提交按钮样式*/
+#con_r form .tj{
+  width: 54px;
+  text-alignc:center;
+  color:#fff;
+  background-color:#1e71d7;
+  border-radius:5px;
+  cursor: pointer;
+  padding-left: 0；
+}
+#con_r .tj:hover{
+  background-color:#27618f;
+}
+#con_r form input{
+  height:34px;
+  line-height:34px;
+  font-size:14px;
+  border-radius:5px;
+  border: 1px solid #e6e6e6; 
+}
+
+
+/*右边内容 我的账户*/
+ .con_r_ul{padding:16px 0 0 131px;}
+ .con_r_ul .cr_li_bg{background: #f5f5f5;}
+ .con_r_ul li{
+  width: 80%;height:40px;
+  line-height: 40px;
+  color:black;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 12px;
+}
+ .con_r_ul li span:nth-child(1){
+  display:inline-block; 
+  width:20%; 
+  border-right: 1px solid #dfdfdf;
+  text-align:right;
+  padding-right: 10px;
+}
+.con_r_ul li span:nth-child(2){padding-left:10px;}
+
+.con_r_ul li .cr_sp_cl{color: #a65552;}
+.con_r_ul li a{
+  display:inline-block;
+  width: 36px;
+  height: 22px;
+  line-height:22px;
+  border-radius: 4px;
+  text-align:center;
+  background-color: #58bc59;
+  margin: 0 10px;
+  color:#fff;
+} 
+.con_r_ul #Recharge:hover{background-color:#429634;}
+.con_r_ul #binding{background-color:#d45a4f;}
+.con_r_ul #binding:hover{background-color:#c8342a;} 
+.con_r_ul li:hover{background: #f0f0f0;}
+
+/*右边内容 软件市场*/
+#rjsc table{
+  width:98%;
+  margin:0 12px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+#rjsc table .td1{width:20%;}
+#rjsc table .td2{width:40%;}
+#rjsc table th{
+  text-align: left; 
+  color:#BD4D6F;
+  height:40px;
+  background-color: #F5F5F5;
+  font-size:14px;
+  padding-left: 12px;
+  border-bottom:1px solid #DDDDDD;
+}
+#rjsc table th span{
+  display:inline-block;
+  padding:2px;
+  background-color:rgba(239,217,220,0.2);
+}
+#rjsc table td{ 
+  text-align:center; 
+  border-left:1px solid #DDDDDD;
+  border-bottom:1px solid #DDDDDD;
+} 
+#rjsc table .td_br0{
+  border-left:1px solid #fff;
+  height:100px;
+  line-height:100px;
+}
+#rjsc table .td_cl{color:#496F93;font-size:12px;}
+#rjsc table tr:hover{background-color: #f0f0f0;}
+#rjsc table a{
+  display:inline-block;
+  width:78px;
+  height:22px;
+}
+#rjsc .a_wykk{background: url("../images/wj_wyk.png") center center no-repeat;}
+#rjsc .a_ykkm{background: url("../images/wj_yk.png") center center no-repeat;}
+#rjsc .a_wykk:hover{background: url("../images/wj_wyk2.png") center center no-repeat;}
+#rjsc .a_ykkm:hover{background: url("../images/wj_yk2.png") center center no-repeat;}
+
+/*右边内容 我的订单 面包线右边*/
+#wddd{position: relative;}
+#wddd dl{
+  position: absolute;
+ right:0; top:12px;
+}
+#wddd dl dt{
+  padding:0 6px;
+  height:22px;
+  line-height:22px;
+  font-size:12px;
+  color:#fff;
+  background-color:#2470CE;
+  margin:0 4px;
+  border-radius:3px;
+  cursor: pointer;
+  float: left;
+}
+#wddd dl dt:hover{background-color:#375E85;}
+#wddd dl .dt_act{background-color:#5CBC5A;}
+#wddd dl .dt_act:hover{background-color:#429634;}
+
+/*右边内容 我的订单 表单*/
+#wddd form{ 
+  width: 100%;
+  position: relative;
+  right:16%;top:0;
+  font-size:0;
+  height:88px;
+  line-height:88px;
+}
+#wddd select{
+  padding-left:0;
+  width:90px;
+  height: 36px;
+  border: 1px solid #e6e6e6;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius:3px; 
+}
+#wddd input{
+  width: 112px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius:3px; 
+}
+#wddd .form_sycx{
+  margin:0 5px;
+}
+#wddd form>span{
+   font-size:12px;
+   display:inline-block;
+   height: 34px;
+   line-height:34px;
+   text-align:center;
+   border: 1px solid #e6e6e6;
+}
+#wddd .form_sjd{
+  width: 66px; 
+  color:#000;
+  background-color:#eeeeee;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius:3px; 
+}
+#wddd .form_z{
+  width:23px;
+  color:#99999b;
+  background-color:#f3f3f5;
+}
+#wddd .form_ss{
+  width: 58px;
+  height:28px;
+  border-radius:3px;
+  background-color:#5ab860;
+  line-height:28px;
+  text-align:center;
+  color:#fff;
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+/*右边内容 我的订单下边表格*/
+#wddd>table{
+  width:100%;
+  border-collapse: collapse;
+  display: none;
+}
+#wddd .tab_show{
+  width:100%;
+  border-collapse: collapse;
+  display: table;
+}
+#wddd tr{
+  background-color:#f9f9f9;
+}
+#wddd tr:hover{
+  background-color:#f5f5f5;
+}
+#wddd td{
+  height: 38px;
+  line-height:38px;
+  text-align:center;
+  color:#000;
+  font-size:12px;
+  border-left:1px solid #dcdcdc;
+  border-bottom:1px solid #dcdcdc;
+}
+#wddd table .wd_td_w1{ width:10%; }
+#wddd table .wd_td_w2{ width:15%; }
+#wddd table .wd_td_w3{ width:30%; }
+
+/*右边内容 我要充值*/
+#wycz{position: relative;}
+#wycz p,#wycz form{
+  padding-left: 15px;
+}
+#wycz p{
+  width: 100%;
+  font-size:14px;
+  color:#000;
+  margin-top: 20px;
+  margin-bottom:10px; 
+}
+#wycz p span:nth-child(2){color: #999da0;}
+
+#wycz form .jine{
+  width: 50%;
+  padding-left: 14px;
+  color：#000; 
+  border:1px solid #e5e5e5;
+  margin-bottom: 15px;
+}
+/*右边内容 我要充值 扫码支付遮罩*/
+#wycz #wycz_mask{
+  position: fixed;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.4);
+  z-index:3;
+  display:none;
+}
+/*右边内容 我要充值 扫码支付*/
+#wycz #wycz_smzf{
+  position: absolute;
+  top:-260%;left:0;right: 0;
+  margin:0 auto;
+  z-index:5;
+  width:50%;
+  background: #fff;
+  border-radius:5px;
+}
+#wycz #wycz_smzf .wycz_smzf_dd1{
+  height:55px;
+  line-height:55px;
+  font-size:18px;
+  border-bottom:1px solid #ccc;
+  padding:0 3%;
+  margin-bottom:30px;
+}
+#wycz #wycz_smzf .wycz_smzf_dd1 a{color:#CECECE;}
+#wycz #wycz_smzf .wycz_smzf_dd1 a:hover{color:#8A8A8A;}
+#wycz #wycz_smzf .wycz_smzf_dd_pl{padding-left: 10%;}
+#wycz #wycz_smzf  dd:nth-child(2){
+  font-size:16px;
+  margin-bottom: 10px;
+}
+#wycz #wycz_smzf  dd:nth-child(2) span{
+  color:#D72B3C;
+  font-weight: bold;
+}
+#wycz #wycz_smzf  dd:nth-child(3) span{
+  width: 116px;
+  height: 46px;
+  border: 2px solid #F1F1F1;
+  display:inline-block;
+  border-radius:3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#wycz #wycz_smzf #smzf_zfb{
+  background:url("../images/smzf_zfb.png") center center no-repeat;
+}
+#wycz #wycz_smzf #smzf_wx{
+  background:url("../images/smzf_wx.png") center center no-repeat;
+}
+#wycz #wycz_smzf  dd:nth-child(3) span:hover{
+  border-color: #7DAD7B;
+}
+#wycz #wycz_smzf #smzf_zfb_ewm,#wycz #wycz_smzf #smzf_wx_ewm{
+  width: 30%;
+  height: 30%;
+  margin-bottom: 50px;
+  display:none;
+}
+#wycz #wycz_smzf #smzf_zfb_ewm,#wycz #wycz_smzf #smzf_wx_ewm{
+ width:100%;
+ height:100%;
+}
+
+
+/*右边内容 流水记录*/
+#lsjl table{
+  width:100%;
+  border-collapse: collapse;
+}
+#lsjl tr{
+  background-color:#f9f9f9;
+}
+#lsjl tr:hover{
+  background-color:#f5f5f5;
+}
+#lsjl td{
+  height: 38px;
+  line-height:38px;
+  text-align:center;
+  color:#000;
+  font-size:12px;
+  border-left:1px solid #dcdcdc;
+  border-bottom:1px solid #dcdcdc;
+}
+#lsjl table .lsjl_td_w1{width:20%;}
+#lsjl table .lsjl_td_w2{width:40%;}
+
+/*右边内容 修改密码*/
+#xgmm form{
+  width:100%;
+  padding-top: 20px;
+  padding-left:15px;
+}
+#xgmm form span{
+  font-size:14px;
+  color:#000;
+  margin-bottom: 9px;
+}
+#xgmm form input{
+  width:70%;
+  border:1px solid #e4e4e4;
+  padding-left: 12px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+#xgmm form .tj{padding-left: 0;}
+
+/*右边内容 绑定手机*/
+#bdsj form{
+  width:100%;
+  padding-top: 20px;
+  padding-left:15px;
+}
+#bdsj form span{
+  font-size:14px;
+  color:#000;
+  margin-bottom: 9px;
+}
+#bdsj form input{
+  width:40%;
+  border:1px solid #e4e4e4;
+  padding-left: 12px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+#bdsj .dxyz{
+  width:30%;
+  border-right:0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius:0;
+}
+#bdsj form a{
+  display:inline-block;
+  height: 34px;
+  line-height:34px;
+  font-size:14px;
+  padding:0 12px;
+  border:1px solid #e4e4e4;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius:5px;
+  color:#000;
+}
+#bdsj form a:hover{
+  background-color:#e6e6e6;
+}
+#bdsj form .tj{padding-left: 0;}
+
+/*右边内容 我要开卡-硬件大师*/
+#wykk form{display:none;}
+#wykk .form_show{display:block;} 
+#wykk form{
+  width:100%;
+  padding-top: 20px;
+  padding-left:60px;
+}
+#wykk form span{
+  display:inline-block;
+  width:56px;
+  font-size:14px;
+  color:#666;
+  margin-bottom: 9px;
+  text-align: right;
+  margin-right: 30px;
+}
+#wykk form em{
+  font-size: 12px;
+  color:#91a4ab;
+  position: relative;
+  left:-31%;top:25px;
+}
+#wykk form .wykk_yue_i{color:#666;}
+#wykk form input,#wykk form select{
+  width:30%;
+  border:1px solid #e4e4e4;
+  padding-left: 12px;
+  color:#333;
+  margin-right: 3%;
+}
+#wykk form select{
+  height:34px;
+  line-height:34px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 5.8%;
+  width:31%;
+}
+#wykk form input{margin-bottom: 36px;}
+#wykk form textarea{
+  width: 75%;
+  border:1px solid #e4e4e4;
+  height:50px;
+  margin-bottom: 15px;
+  border-radius:5px;
+  vertical-align: top;
+  padding-left: 12px;
+  padding-top: 6px;
+}
+#wykk form .sp_ml{margin-left: -60px;}
+#con_r #wykk form .xgmm_tj{
+  padding-left: 0;
+  margin-left: 86px;
+  background-color:#5fb753;
+}
+#con_r #wykk form .xgmm_tj:hover{background-color:#43994e;}
+//我要开卡 挂机宝固定版多选框
+#wykk #wykk_form_gjbg .checkbox{width:100%;}
+#wykk #wykk_form_gjbg .checkbox>li{
+  float: left;
+  width:30%;
+  line-height: 27px;
+  font-size:14px;
+}
+#wykk #wykk_form_gjbg .checkbox>li label{
+  width:100%;
+}
+#wykk #wykk_form_gjbg .checkbox>li input{
+  width: 14px;
+  height: 14px;
+  margin:0;
+  padding:0;
+}
+
+
+/*右边内容 已开卡密 面包线右边*/
+#ykkm{position: relative;}
+#ykkm dl{
+  position: absolute;
+ right:1%; top:12px;
+}
+#ykkm dl dt{
+  padding:0 6px;
+  height:22px;
+  line-height:22px;
+  font-size:12px;
+  color:#fff;
+  background-color:#2470CE;
+  margin:0 4px;
+  border-radius:3px;
+  cursor: pointer;
+  float: left;
+}
+#ykkm dl dt:hover{background-color:#375E85;}
+#ykkm dl .dt_act{background-color:#5CBC5A;}
+#ykkm dl .dt_act:hover{background-color:#429634;}
+
+/*右边内容 已开卡密 表单*/
+#ykkm form{
+  position: relative;
+  left:-12%;top:0;
+  font-size:0;
+  height:88px;
+  line-height:88px;
+}
+#ykkm form select{
+  height: 34px;
+   width:66px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius:3px;
+  border: 1px solid #e6e6e6;
+}
+#ykkm form input{
+  width: 135px;
+  height:32px;
+  line-height:32px;
+  border-radius:3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+#ykkm .form_ss{
+  width: 58px;
+  height:28px;
+  border-radius:3px;
+  background-color:#5ab860;
+  line-height:28px;
+  text-align:center;
+  color:#fff;
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+/*右边内容 已开卡密下边表格*/
+#ykkm table{
+  width:98%;
+  margin:0 auto;
+  border-collapse: collapse;
+  display: none;
+}
+#ykkm .tab_show{
+  display: table;
+}
+#ykkm tr{
+  background-color:#f9f9f9;
+}
+#ykkm tr:hover{
+  background-color:#f5f5f5;
+}
+#ykkm td{
+  height: 38px;
+  line-height:38px;
+  text-align:center;
+  color:#000;
+  font-size:12px;
+  border-left:1px solid #dbdbdb;
+  border-bottom:1px solid #dbdbdb;
+}
+#ykkm table .km_td_w{ width:5%; }
+#ykkm table .km_td_w1{ width:10%; }
+#ykkm table .km_td_w1_2{ width:12%; }
+#ykkm table .km_td_w2{ width:15%; }
+#ykkm table .km_td_w3{ width:20%; }
+#ykkm table .km_td_w6{ width:40%; }
